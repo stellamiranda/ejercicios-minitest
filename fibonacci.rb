@@ -1,6 +1,8 @@
 # frozen-string-literal: true
 
 # fibonacci.rb
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
+
 
 class Fibonacci
   def calculate(n)
@@ -8,6 +10,7 @@ class Fibonacci
     calculate(n - 1) + calculate(n - 2)
   end
 end
+
 
 p Fibonacci.new.calculate(1)
 p Fibonacci.new.calculate(2)
