@@ -11,8 +11,6 @@ class Fibonacci
   end
 end
 
-
-p Fibonacci.new.calculate(1)
-p Fibonacci.new.calculate(2)
-p Fibonacci.new.calculate(3)
-
+20.times do |n|
+  puts Fibonacci.new.calculate(n)
+end

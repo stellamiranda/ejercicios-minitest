@@ -14,8 +14,4 @@ class FizzBuzz
   end
 end
 
-p FizzBuzz.new().convert(1)
-p FizzBuzz.new().convert(3)
-p FizzBuzz.new().convert(5)
-p FizzBuzz.new().convert(15)
 
